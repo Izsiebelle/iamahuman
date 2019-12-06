@@ -37,7 +37,7 @@
 }
 
 .heropanel__content h1 {
-    //margin:0 0 .5em;
+    margin:0 0 .5em;
     margin-top: 40px;
     text-transform:uppercase;
 }
@@ -78,6 +78,40 @@ nav ul {
 
   nav a:hover {
     color: #a2a2a2;
+  }
+
+  .section-title{
+      color: #113537; 
+      font-size: 4em;
+      margin-left: 1em;
+  }
+
+  .section-p{
+      margin: 0em 3.5em;
+      color: #94958b;
+      font-size: 1.25em;
+  }
+
+  .story-imgs{
+      display: flex;
+      justify-content: space-around;
+      margin: 2em;
+  }
+
+  .story-img-size {
+      width: 30em;
+      height: 30em;
+      object-fit: cover;
+  }
+
+  .mission{
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+
+  .mission-img{
+      width: 50em;
+      margin: 1em;
   }
 
   
